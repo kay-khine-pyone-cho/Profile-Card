@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  overflow: hidden;
+}
+section {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  /* overflow: hidden; */
+}
+
+.row {
+  width: 90%;
+  height: 100%;
+  background: linear-gradient(
+    hsla(185, 78%, 28%, 0.801),
+    hsla(184, 93%, 27%, 0.952),
+    hsla(174, 18%, 45%, 0.822)
+  );
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+
+  position: relative;
+  overflow: hidden;
+}
+.background img:nth-child(1) {
+  position: absolute;
+  top: -90%;
+  left: -40%;
+}
+.background img:nth-child(2) {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.container {
+  width: 28%;
+  height: 50%;
+  border-radius: 10px;
+  background-color: #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.top img {
+  width: 100%;
+}
+.mid img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mid {
+  position: relative;
+}
+.mid-content {
+  /* background-color: brown; */
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+.mid-content h2 {
+  font-size: 70%;
+  padding-top: 10px;
+}
+.mid-content h2 span {
+  color: #777;
+  padding-left: 15px;
+  font-weight: 400;
+}
+.mid-content h3 {
+  color: #777;
+  font-size: 40%;
+  padding-top: 5px;
+}
+.bot {
+  width: 100%;
+  height: 25%;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-top: 1px solid rgb(189, 187, 187);
+}
+.bot .bot1,
+.bot .bot2,
+.bot .bot3 {
+  text-align: center;
+}
+.bot1 h5,
+.bot2 h5,
+.bot3 h5 {
+  color: rgb(41, 41, 41);
+}
+.bot1 p,
+.bot2 p,
+.bot3 p {
+  color: #777;
+  font-size: 30%;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
